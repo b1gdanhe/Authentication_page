@@ -1,0 +1,114 @@
+/* 
+      '#5b3cc4',
+      'rgb(23, 201, 100)',
+      'rgb(242, 19, 93)',
+      'rgb(255, 130, 0)',
+      'rgb(36, 33, 69)'
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 130, 0);
+  flex-direction: column;
+  gap: 1em;
+}
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 2em;
+  gap: 1em;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 15em;
+  border-radius: 15px;
+}
+.form div {
+  width: 100%;
+}
+.form input {
+  width: 100%;
+  height: 2em;
+  padding: 1em;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  box-shadow: 0px 5px 5px -5px black;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+.form input::placeholder {
+  color: white;
+}
+.form input:focus {
+  transform: scale(1.03);
+}
+.password-div {
+  position: relative;
+}
+
+#show-pass,
+#hidden-pass {
+  position: absolute;
+  right: 15px;
+  height: 100%;
+  cursor: pointer;
+}
+
+#hidden-pass {
+  display: none;
+}
+
+.location {
+  display: flex;
+  gap: 0.5em;
+}
+.form button {
+  width: 50%;
+  height: 2em;
+  padding: 1em;
+  font-size: 17px;
+  line-height: 0;
+  border: none;
+  outline: none;
+  box-shadow: 0px 5px 5px -5px black;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.form button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.info {
+  font-size: 12px;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .form {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 410px) {
+  .form {
+    width: 95%;
+  }
+}

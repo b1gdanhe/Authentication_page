@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="./style.css" />
+<body>
+  <h1 style="color: white">CONNEXION</h1>
+  <div class="form">
+    <div class="email">
+      <input type="email" placeholder="Email" />
+    </div>
+    <div class="password-div">
+      <input type="password" placeholder="Mot de passe" id="pass-word" />
+      <img
+        src="../assets/file.svg"
+        alt="show"
+        id="show-pass"
+        onclick="passVisi()"
+      />
+      <img
+        src="../assets/file2.svg"
+        alt="show"
+        id="hidden-pass"
+        onclick="passVisi()"
+      />
+    </div>
+    <button>Se connecter</button>
+    <span class="info">
+      Vous n'avez pas de compte
+      <a href="/Inscription/index.html"> Inscrivez-vous</a></span>
+  </div>
+</body>
+<script src="../assets/index.js"></script>

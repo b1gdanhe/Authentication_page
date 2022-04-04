@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="./style.css" />
+<body>
+  <h1 style="color: white">INSCRIPTION</h1>
+  <div class="form">
+    <div class="first-name">
+      <input type="text" placeholder="Prenom" />
+    </div>
+    <div class="last-name">
+      <input type="text" placeholder="Nom" />
+    </div>
+    <div class="email">
+      <input type="email" placeholder="Email" />
+    </div>
+    <div class="phone_number">
+      <input type="number" placeholder="Numero de telephone" />
+    </div>
+    <div class="location">
+      <input type="text" placeholder="Pays" />
+      <input type="text" placeholder="Ville" />
+      <input type="text" placeholder="Quartier" />
+    </div>
+    <div class="password-div">
+      <input type="password" placeholder="Mot de passe" id="pass-word" />
+      <img
+        src="../assets/file.svg"
+        alt="show"
+        id="show-pass"
+        onclick="passVisi()"
+      />
+      <img
+        src="../assets/file2.svg"
+        alt="show"
+        id="hidden-pass"
+        onclick="passVisi()"
+      />
+    </div>
+    <div class="password_confirmation">
+      <input type="password" placeholder="Meme mot de passe" id="pass-word2" />
+      <img
+        src="../assets/file.svg"
+        alt="show"
+        id="show-pass2"
+        onclick="passVisi2()"
+      />
+      <img
+        src="../assets/file2.svg"
+        alt="show"
+        id="hidden-pass2"
+        onclick="passVisi2()"
+      />
+    </div>
+    <button>S'inscrire</button>
+    <span class="info">
+      vous avez déjà un compte
+      <a href="/Connexion/index.html"> Connectez-vous</a></span
+    >
+  </div>
+</body>
+<script src="../assets/index.js"></script>
+
