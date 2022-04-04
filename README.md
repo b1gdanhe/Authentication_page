@@ -16,20 +16,20 @@ If you are using vscode just install live serveur plugins and start the serveur(
 ![IMAGE_1!](./assets/DARK.png)
 
 
-BLUE background
+# BLUE background
 
 ![IMAGE_1!](./assets/BLUE.png)
 
 
-RED background
+# RED background
 
 ![IMAGE_1!](./assets/RED.png)
 
 
-GREEN background
+# GREEN background
 
 ![IMAGE_1!](./assets/GREEN.png)
 
 
-YELLOW background
+# YELLOW background
 ![IMAGE_1!](./assets/YELLOW.png)
