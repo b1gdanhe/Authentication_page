@@ -11,7 +11,7 @@ $ php -S localhost:`PORT`(exemple: php -S localhost:8000)
 
 If you are using vscode just install live serveur plugins and start the serveur(jsute click on Go live button)
 
-# DARK background
+## DARK background
 
 ![IMAGE_1!](./assets/DARK.png)
 
